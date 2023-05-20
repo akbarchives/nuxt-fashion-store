@@ -34,7 +34,7 @@
           v-for="size in sizes"
           v-bind:key="size"
         >
-          <p class="bg-black text-white p-2">{{ size }}</p>
+          <p class="bg-black hover:bg-zinc-800 text-white p-2">{{ size }}</p>
           &nbsp;
         </div>
       </div>

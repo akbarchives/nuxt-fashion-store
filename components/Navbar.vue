@@ -40,8 +40,11 @@
   </nav>
 </template>
 
-<style>
+<style scoped>
 nav {
   z-index: 101;
+}
+.router-link-active {
+  @apply border border-black font-bold;
 }
 </style>

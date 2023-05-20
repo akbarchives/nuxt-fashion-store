@@ -113,16 +113,13 @@ const product = products[id - 1];
             v-for="size in product.sizes"
             v-bind:key="size"
           >
-            <p class="bg-black text-white p-2">{{ size }}</p>
+            <p class="bg-black hover:bg-zinc-800 text-white p-2">{{ size }}</p>
             &nbsp;
           </div>
         </div>
-        <!-- <div class="inline-block my-2 text-sm p-2 bg-slate-300 text-black">
-          #{{ product.category }}
-        </div> -->
       </div>
       <div class="flex flex-row justify-between items-center mt-4">
-        <div class="py-2 px-4 bg-slate-300 text-black">
+        <div class="py-2 px-4 bg-slate-300 hover:bg-slate-400 text-black">
           #{{ product.category }}
         </div>
         <button class="py-2 px-4 bg-red-500 hover:bg-red-600 text-white">
