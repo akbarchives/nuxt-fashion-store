@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-sm lg:max-w-[250px] flex flex-col border bg-white overflow-hidden shadow-sm"
+    class="max-w-sm lg:max-w-[250px] flex flex-col border bg-white overflow-hidden shadow-sm hover:border-black"
   >
     <div class="group overflow-hidden">
       <img

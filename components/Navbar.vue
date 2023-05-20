@@ -8,17 +8,33 @@
       </p>
     </div>
     <ul class="flex flex-row gap-2 text-lg font-medium">
-      <li class="px-6 py-3 hover:bg-black hover:text-white">
-        <nuxt-link to="/">Home</nuxt-link>
+      <li>
+        <nuxt-link
+          class="px-6 py-3 hover:bg-black hover:text-white"
+          to="/"
+          >Home</nuxt-link
+        >
       </li>
-      <li class="px-6 py-3 hover:bg-black hover:text-white">
-        <nuxt-link to="/products">Products</nuxt-link>
+      <li>
+        <nuxt-link
+          class="px-6 py-3 hover:bg-black hover:text-white"
+          to="/products"
+          >Products</nuxt-link
+        >
       </li>
-      <li class="px-6 py-3 hover:bg-black hover:text-white">
-        <nuxt-link to="/category">Category</nuxt-link>
+      <li>
+        <nuxt-link
+          class="px-6 py-3 hover:bg-black hover:text-white"
+          to="/category"
+          >Category</nuxt-link
+        >
       </li>
-      <li class="px-6 py-3 hover:bg-black hover:text-white">
-        <nuxt-link to="/account">Account</nuxt-link>
+      <li>
+        <nuxt-link
+          class="px-6 py-3 hover:bg-black hover:text-white"
+          to="/account"
+          >Account</nuxt-link
+        >
       </li>
     </ul>
   </nav>

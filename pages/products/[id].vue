@@ -75,19 +75,19 @@ const product = products[id - 1];
 
 <template>
   <div
-    class="p-16 pt-48 md:pt-48 md:p-32 max-w-md:p-32 flex flex-row flex-wrap md:flex-nowrap md:object-cover"
+    class="p-16 pt-48 md:pt-48 md:p-32 flex flex-row flex-wrap md:flex-nowrap md:object-cover"
   >
     <div
-      class="group basis-full md:basis-1/3 overflow-hidden bg-white object-cover"
+      class="group basis-full md:basis-1/2 lg:basis-1/3 overflow-hidden bg-white object-cover"
     >
       <img
-        class="group hover:scale-125 transition-all ease duration-500 aspect-square object-cover"
+        class="group hover:scale-125 transition-all ease duration-500 lg:aspect-square object-cover"
         :src="product.image"
         alt=""
       />
     </div>
     <div
-      class="basis-full md:basis-2/3 border p-8 flex flex-col justify-between"
+      class="basis-full md:basis-1/2 lg:basis-2/3 border md:border-0 border-black p-8 flex flex-col justify-between"
     >
       <div class="mb-8 md:mb-0">
         <h1 class="text-xl font-bold">{{ product.brand }}</h1>
@@ -101,6 +101,7 @@ const product = products[id - 1];
             ⭐
           </span>
         </h1>
+        <h1 class="text-xl font-bold">$ {{ product.price }}</h1>
       </div>
       <div class="mb-8 lg:mb-0">
         <h2 class="text-lg font-medium">Description :</h2>
