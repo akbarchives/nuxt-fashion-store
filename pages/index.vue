@@ -2,7 +2,7 @@
   <!-- <Hero class="h-screen" /> -->
 
   <div
-    class="h-screen p-8 md:p-16 pt-48 md:pt-64 bg-[url('~/assets/hero2.jpg')] bg-cover"
+    class="h-screen p-8 md:p-32 pt-48 md:pt-64 bg-[url('~/assets/hero2.jpg')] bg-cover"
   >
     <h1 class="lg:w-2/3 text-4xl font-bold mb-8">
       Unleash Your Inner Fashionista with Our Collection

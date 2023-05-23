@@ -9,17 +9,13 @@
           "Discover the Latest Fashion Must-Haves Here"
         </p>
       </div>
-      <ul
-        class="basis-1/3 text-center md:text-right flex flex-col gap-8 text-lg"
-      >
+      <ul class="basis-1/3 text-right flex flex-col gap-8 text-lg">
         <li><nuxt-link to="/">Home</nuxt-link></li>
         <li><nuxt-link to="/products">products</nuxt-link></li>
         <li><nuxt-link to="/category">Category</nuxt-link></li>
         <li><nuxt-link to="/account">Account</nuxt-link></li>
       </ul>
-      <ul
-        class="flex-auto text-center md:text-right flex flex-col gap-8 text-lg"
-      >
+      <ul class="flex-auto text-right flex flex-col gap-8 text-lg">
         <li><nuxt-link to="#">Jacket</nuxt-link></li>
         <li><nuxt-link to="#">Shirt</nuxt-link></li>
         <li><nuxt-link to="#">Jeans</nuxt-link></li>
