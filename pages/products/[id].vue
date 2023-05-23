@@ -75,7 +75,7 @@ const product = products[id - 1];
 
 <template>
   <div
-    class="p-8 md:p-16 pt-48 md:pt-48 flex flex-row flex-wrap md:flex-nowrap md:object-cover"
+    class="p-8 md:p-32 pt-48 md:pt-48 flex flex-row flex-wrap md:flex-nowrap md:object-cover"
   >
     <div
       class="group basis-full md:basis-1/2 lg:basis-1/3 overflow-hidden bg-white object-cover"
