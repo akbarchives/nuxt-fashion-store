@@ -3,9 +3,13 @@
     class="flex flex-row justify-between items-center px-4 py-8 md:px-16 md:py-8 border-b border-black fixed w-full bg-white text-primary"
   >
     <div class="brand">
-      <p class="text-3xl font-bold text-black">
-        Style<span class="text-white bg-black">Hub</span>
-      </p>
+      <nuxt-link
+        class=""
+        to="/"
+        ><p class="text-3xl font-bold text-black">
+          Style<span class="text-white bg-black">Hub</span>
+        </p></nuxt-link
+      >
     </div>
     <ul class="flex flex-row gap-2 text-lg font-medium">
       <li>
@@ -42,7 +46,7 @@
 
 <style scoped>
 nav {
-  z-index: 101;
+  z-index: 2;
 }
 .router-link-active {
   @apply bg-black text-white;

@@ -27,7 +27,7 @@
       </ul>
     </div>
     <div class="text-center my-8 pt-8 border-white border-t">
-      Made ugal-ugalan 💥 by Akbar
+      Made sambil ngeluh 💥 by Akbar
     </div>
   </footer>
 </template>

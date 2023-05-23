@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full p-8 md:p-16 pt-48 md:p-32 md:pt-48">
+  <div class="w-full p-8 md:p-16 pt-48 md:pt-48">
     <h1 class="text-2xl font-bold mb-8">Collections</h1>
     <div
-      class="collections gap-2 flex flex-row flex-wrap justify-center sm:justify-normal"
+      class="collections gap-2 flex flex-row flex-wrap justify-center md:justify-normal"
     >
       <NuxtLink
         class=""
