@@ -2,7 +2,7 @@
   <!-- <Hero class="h-screen" /> -->
 
   <div
-    class="h-screen p-16 pt-48 lg:pt-64 lg:p-32 bg-[url('~/assets/hero2.jpg')] bg-cover"
+    class="h-screen p-8 md:p-16 pt-48 lg:pt-64 lg:p-32 bg-[url('~/assets/hero2.jpg')] bg-cover"
   >
     <h1 class="lg:w-2/3 text-4xl font-bold mb-8">
       Unleash Your Inner Fashionista with Our Collection
@@ -12,9 +12,9 @@
       confidently through fashion, unleashing your inner fashionista.
     </p>
   </div>
-  <div class="h-full p-16 md:p-32">
+  <div class="h-full p-8 md:p-16 md:p-32">
     <h1 class="text-2xl font-bold mb-8">Dashboard</h1>
-    <p class="leading-relaxe overflow-hidden">
+    <p class="leading-loose overflow-hidden text-justify">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
       nesciunt saepe cum sint maxime amet vel necessitatibus aliquam numquam a,
       magnam et id quidem porro quas recusandae omnis veniam. Dolor dolorum
